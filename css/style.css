@@ -10,6 +10,7 @@
   border: none;
   -webkit-transition: all .2s linear;
   transition: all .2s linear;
+  overflow: wrap;
 }
 
 html {
@@ -425,12 +426,21 @@ section {
           align-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+      background: white;
+      margin-top: .5rem;
+      box-shadow: 0 0 1rem gray;
+      border-top-right-radius: 7rem;
+
 }
 
 .about .image {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 42rem;
           flex: 1 1 42rem;
+          background: linear-gradient(to right, #0984e3,#0984e3, #bce2fe, #bce2fe);
+          border-radius: .7rem;
+          border-bottom-right-radius: 20rem;
+
 }
 
 .about .image img {
@@ -441,6 +451,7 @@ section {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 42rem;
           flex: 1 1 42rem;
+          min-height: 35rem;
   padding: 3rem;
   background: #fff;
 }
@@ -452,10 +463,15 @@ section {
 }
 
 .about .content p {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   color: #666;
   padding: 1rem 0;
   line-height: 2;
+}
+
+.about .content .cite {
+  text-align: center;
+  font-size: 1.9rem;
 }
 
 .faq .accordion-container {
@@ -1197,6 +1213,11 @@ section {
             flex-flow: column;
     text-align: center;
   }
+
+  .about {
+    border-top-right-radius: 0;
+  }
+
 }
 
 @media (max-width: 768px) {
