@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>contact</title>
-
+    <title>Mimi'Shop | Inscription</title>
+    <meta name="description" content="Mimi'Shop, un endroit, tout achat ! Acheter vos chaussures, chemises, parfum, robes, produits cosmétiques chez Mimi'Shop">
+    <link rel="icon" type="image/x-icon" href="images/logo.jpg"> 
     <!-- font awesome cdn link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
+    <!-- swiper css link  -->
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
 
     <!-- cusom css file link  -->
@@ -18,13 +20,12 @@
 <body>
     
 <!-- header section starts  -->
-
 <header class="header">
 
     <a href="index.html" class="logo"> <img class="img-logo" src="images/logo.jpg" > Mimi'Shop </a>
 
     <form action="" class="search-form">
-        <input type="search" id="search-box" placeholder="search here...">
+        <input type="search" id="search-box" placeholder="faire une recherche...">
         <label for="search-box" class="fas fa-search"></label>
     </form>
 
@@ -54,8 +55,9 @@
 
     <nav class="navbar">
         <a href="home.html"> <i class="fas fa-angle-right"></i> Accueil </a>
-        <a href="about.html"> <i class="fas fa-angle-right"></i> A propos </a>
+        <a href="#"> <i class="fas fa-angle-right"></i> A propos </a>
         <a href="articles.html"> <i class="fas fa-angle-right"></i> Produits </a>
+        <a href="contact.html"> <i class="fas fa-angle-right"></i> Contact </a>
         <a href="#"> <i class="fas fa-angle-right"></i> Connexion </a>
         <a href="#"> <i class="fas fa-angle-right"></i> Inscription </a>
         <a href="#"> <i class="fas fa-angle-right"></i> Panier </a>
@@ -65,80 +67,37 @@
 
 <!-- side-bar section ends -->
 
-<!-- contact info section starts  -->
+<!-- login form section starts  -->
 
-<section class="info-container">
-
-    <div class="box-container">
-
-        <div class="box">
-            <i class="fas fa-map"></i>
-            <h3>Adresse</h3>
-            <p>Cocody - Abidjan</p>
-        </div>
-
-        <div class="box">
-            <i class="fas fa-envelope"></i>
-            <h3>Email</h3>
-            <p>mimishop225gmail.com</p>
-            <p>mimishop07@gmail.com</p>
-        </div>
-
-        <div class="box">
-            <i class="fas fa-phone"></i>
-            <h3>Numéros</h3>
-            <p>+225 05 6513 1851</p>
-            <p>+225 05 9477 7408</p>
-        </div>
-
-    </div>
-
-</section>
-
-<!-- contact info section ends -->
-
-<!-- contact section starts  -->
-
-<section class="contact">
+<section class="login">
 
     <form action="">
-        <h3>Prendre contact avec Mimi'Shop</h3>
-        <p>Avez-vous besoin de prendre contact ? Envoyez-nous un message ou nous appeler directement.</p>
-        <div class="inputBox">
-            <input type="text" placeholder="Votre nom">
-            <input type="email" placeholder="Votre email">
+        <h3>Se connecter</h3>
+        <input type="email" name="" placeholder="Votre email" id="" class="box">
+        <input type="password" name="" placeholder="Votre mot de passe password" id="" class="box">
+        <div class="remember">
+            <input type="checkbox" name="" id="remember-me">
+            <label for="remember-me"> remember me </label>
         </div>
-        <div class="inputBox">
-            <input type="number" placeholder="Votre numéro">
-            <input type="text" placeholder="subject">
-        </div>
-        <textarea name="" placeholder="Ecrivez votre message" id="" cols="30" rows="15"></textarea>
-        <input type="submit" value="Envoyer " class="btn">
-    </form>
-
-    <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d127108.56598751884!2d-4.025929915362183!3d5.395218341012729!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0xfc1ed72ca2fe9ff%3A0xc511a189e6cd48b2!2sCocody%2C%20Abidjan!3m2!1d5.3602164!2d-3.9674370999999997!5e0!3m2!1sfr!2sci!4v1663553777261!5m2!1sfr!2sci" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-</section>
-
-<!-- contact section ends -->
-
-<!-- newsletter section starts  -->
-
-<section class="newsletter">
-
-    <div class="content">
-        <h3>Newsletter</h3>
-        <p>S'abonner pour savoir quand il y a réduction et/ou de nouveaux articles .</p>
-    </div>
-
-    <form action="">
-        <input type="email" name="" placeholder="Entrez votre email" id="" class="email">
-        <input type="submit" value="S'abonner" class="btn">
+        <input type="submit" value="Connexion" class="btn">
+        <p>pas de compte ?</p>
+        <a href="register.html" class="btn link">S'inscrire</a>
     </form>
 
 </section>
+ 
+<!-- login form section ends  -->
 
-<!-- newsletter section ends -->
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -164,14 +123,6 @@
             <a href="#" class="fab fa-instagram" style="background:rgb(255, 94, 0); border-radius: 45%"></a>
         </div>
     </div>
-
-</section>
-
-<section class="credit">
-
-    <p> Mimi'Shop 2022 | all rights reserved </p>
-    <img src="images/card_img.png" alt="">
-    <img src="images/paiment-img.JPG" alt="">
 
 </section>
 
