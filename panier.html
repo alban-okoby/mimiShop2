@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cart</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- swiper css link  -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- cusom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="index.html" class="logo"> <img class="img-logo" src="images/logo.jpg" > Mimi'Shop </a>
+
+    <form action="" class="search-form">
+        <input type="search" id="search-box" placeholder="faire une recherche...">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+
+    <div class="icons">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <div id="search-btn" class="fas fa-search"></div>
+        <a href="login.html" class="fas fa-user"></a>
+        <a href="#" class="fas fa-heart"></a>
+        <a href="panier.html" class="fas fa-shopping-cart"></a>
+    </div>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- side-bar section starts -->
+
+<div class="side-bar">
+
+    <div id="close-side-bar" class="fas fa-times"></div>
+
+    <div class="user">
+        <img src="images/logo.jpg" alt="">
+        <h3>Mimi'Shop </h3>
+        <a href="#">Deconnexion</a>
+    </div>
+
+    <nav class="navbar">
+        <a href="index.html"> <i class="fas fa-angle-right"></i> A propos </a>
+        <a href="about.html"> <i class="fas fa-angle-right"></i> A propos </a>
+        <a href="articles.html"> <i class="fas fa-angle-right"></i> Produits </a>
+        <a href="contact.html"> <i class="fas fa-angle-right"></i> Contact </a>
+        <a href="login.html"> <i class="fas fa-angle-right"></i> Connexion </a>
+        <a href="inscription.html"> <i class="fas fa-angle-right"></i> Inscription </a>
+        <a href="panier.html"> <i class="fas fa-angle-right"></i> Panier </a>
+    </nav>
+
+</div>
+
+<!-- side-bar section ends -->
+
+<!-- shopping cart section starts  -->
+
+<section class="shopping-cart">
+
+    <h1 class="heading">Vos <span>produits</span></h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <i class="fas fa-times"></i>
+            <img src="images/product-1.jpg" alt="">
+            <div class="content">
+                <h3>smartphone</h3>
+                <form action="">
+                    <span>quantité : </span>
+                    <input type="number" name="" value="1" id="">
+                </form>
+                <div class="price">49 000 XOF <span>50 000 XOF</span></div>
+
+            </div>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-times"></i>
+            <img src="images/product-2.jpg" alt="">
+            <div class="content">
+                <h3>camera</h3>
+                <form action="">
+                    <span>quantité : </span>
+                    <input type="number" name="" value="1" id="">
+                </form>
+                <div class="price">29 000 XOF <span>66 000 OXF</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-times"></i>
+            <img src="images/tunique-bleu.png" alt="">
+            <div class="content">
+                <h3>tunique bleu</h3>
+                <form action="">
+                    <span>quantité : </span>
+                    <input type="number" name="" value="1" id="">
+                </form>
+                <div class="price">12.500 XOF<span>17 000 XOF</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-times"></i>
+            <img src="images/tunique-noir-4.png" alt="">
+            <div class="content">
+                <h3>tunique noir</h3>
+                <form action="">
+                    <span>quantité : </span>
+                    <input type="number" name="" value="1" id="">
+                </form>
+                <div class="price">12.500 XOF<span>17 000 XOF</span></div>
+            </div>
+        </div>
+        
+        <div class="box">
+            <i class="fas fa-times"></i>
+            <img src="images/product-7.jpg" alt="">
+            <div class="content">
+                <h3>Casque</h3>
+                <form action="">
+                    <span>quantity : </span>
+                    <input type="number" name="" value="1" id="">
+                </form>
+                <div class="price">9 000 OXF <span>14 000 XOF</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-times"></i>
+            <img src="images/product-6-hover.jpg" alt="">
+            <div class="content">
+                <h3>Montre 3X</h3>
+                <form action="">
+                    <span>quantité : </span>
+                    <input type="number" name="" value="1" id="">
+                </form>
+                <div class="price">19 000 OXF <span>32 000 XOF</span></div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="cart-total">
+        <h3> Total direct : <span> 131 500 XOF</span> </h3>
+        <h3> Réduction : <span>-34 000 XOF</span> </h3>
+        <h3> Total : <span>97 500 XOF</span> </h3>
+        <a href="#" class="btn">Choisir le moyen de paiement</a>
+    </div>
+
+</section>
+
+<!-- shopping cart section ends -->
+
+
+
+<!-- footer section starts  -->
+
+<section class="quick-links">
+
+    <a href="index.html" class="logo"> <img class="img-logo" src="images/logo.jpg" > Mimi'Shop </a>
+
+    <div class="links">
+        <a href="index.html"> Accueil </a>
+        <a href="about.html"> A propos  </a>
+        <a href="articles.html"> Produits  </a>
+        <a href="contact.html"> Contact </a>
+        <a href="login.html"> Connexion </a>
+        <a href="inscription.html"> Inscription </a>
+        <a href="panier.html"> Panier </a>
+    </div>
+
+    >
+        <div class="share">
+            <a href="https://facebook.com/mimishoppm" class="fab fa-facebook" style="background:blue; border-radius: 45%"></a>
+            <a href="#" class="fab fa-instagram" style="background:rgb(255, 94, 0); border-radius: 45%"></a>
+        </div>
+    </div>
+
+</section>
+
+<section class="credit">
+
+    <p> Mimi'Shop 2022 | all rights reserved </p>
+    <img src="images/card_img.png" alt="">
+    <img src="images/paiment-img.JPG" alt="">
+
+</section>
+
+<!-- footer section ends -->
+
+
+
+
+<!-- swiper js link      -->
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
