@@ -27,6 +27,10 @@
     <img src="screen/inscription.png" width="500px" height="400px"/> 
     <img src="screen/login.png"  height="400px"/>
 </p>
+### Histoire 
+<p style="display:flex;justify-content:space-between">
+    <img src="screen/histoire.png"/> 
+</p>
 
 ### Contact 
 <p style="display:flex;justify-content:space-between">
