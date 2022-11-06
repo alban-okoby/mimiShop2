@@ -24,8 +24,8 @@
 
 ### Inscription / Connexion 
 <p style="display:flex;justify-content:space-between">
-    <img src="screen/inscription.png" width="500px" height="400px"/> 
-    <img src="screen/login.png"  height="400px"/>
+    <img src="screen/inscription.png"/> 
+    <img src="screen/login.png"  />
 </p>
 ### Histoire 
 <p style="display:flex;justify-content:space-between">
