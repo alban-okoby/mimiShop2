@@ -19,13 +19,13 @@
 ### Produit 
 <p style="display:flex;justify-content:space-between">
     <img src="screen/produit.png" /> 
-    <img src="screen/produit2-footer.png" />
+    <img src="screen/produit2.png" />
 </p>
 
 ### Inscription / Connexion 
 <p style="display:flex;justify-content:space-between">
-    <img src="screen/inscription.png" /> 
-    <img src="screen/connexion.png" />
+    <img src="screen/inscription.png" width="500px" height="400px"/> 
+    <img src="screen/login.png"  height="400px"/>
 </p>
 
 ### Contact 
